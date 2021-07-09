@@ -1,0 +1,299 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="MasterPage_AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Kute Shop is new Html theme that we have designed to help you transform your store into a beautiful online showroom. This is a fully responsive Html theme, with multiple versions for homepage and multiple templates for sub pages as well" />
+    <meta name="keywords" content="Kute Shop,7uptheme" />
+    <meta name="robots" content="noodp,index,follow" />
+    <meta name='revisit-after' content='1 days' />
+    <title>BRR Wholesale</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="../css/libs/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/libs/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/libs/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../css/libs/jquery.fancybox.css" />
+    <link rel="stylesheet" type="text/css" href="../css/libs/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/libs/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="../css/libs/owl.transitions.css" />
+    <link rel="stylesheet" type="text/css" href="../css/libs/owl.theme.css" />
+    <link rel="stylesheet" type="text/css" href="../css/libs/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" type="text/css" href="../css/libs/animate.css" />
+    <link rel="stylesheet" type="text/css" href="../css/libs/hover.css" />
+    <link rel="stylesheet" type="text/css" href="../css/color-magenta3.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../css/theme.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../css/responsive.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="../css/browser.css" media="all" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/rtl.css" media="all"/> -->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div class="wrap">
+            <div id="header">
+
+                <div class="header">
+
+                    <div class="top-header top-header4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <%--   <div class="account-login account-login3">
+                                        <a href="#">My Account</a>
+                                        <a href="#">checkout</a>
+                                        <a href="#">Login</a>
+                                        <a href="#">Register</a>
+                                    </div>--%>
+
+                                    <div class="list-social">
+                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>|
+                                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>|
+                                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>|
+                                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>|
+                                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 hidden-xs">
+
+                                    <div class="account-login account-login3 text-right ">
+                                        <a href="<%=Page.ResolveUrl("~")%>Default.aspx">Home</a>
+                                        <a href="<%=Page.ResolveUrl("~")%>Default.aspx">Logout</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header-nav9 header-nav12">
+                        <div class="container">
+                            <div class="nav-search9">
+                                <nav class="main-nav main-nav12">
+                                    <ul>
+
+                                        <li class="has-mega-menu">
+                                            <a href="../../Pages/Set/ListDateforregion.aspx">Date For Region </a>
+
+                                            <!-- End Mega Menu -->
+                                        </li>
+                                        <li class="has-mega-menu">
+                                            <a href="../../Pages/Set/ListCategory.aspx">Category</a>
+
+
+                                        </li>
+                                        <li class="has-mega-menu">
+                                            <a href="../../Pages/Set/ListSubCategory.aspx">SubCategory </a>
+
+
+                                        </li>
+                                        <li class="has-mega-menu">
+                                            <a href="../../Pages/Set/AddProducts.aspx">Add Products</a>
+
+
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="../../Pages/Set/EditProduct.aspx">Edit Product</a>
+
+                                        </li>
+
+
+                                        <li class="has-mega-menu">
+                                            <a href="../../Pages/Set/ListBrand.aspx">Add Brand </a>
+
+
+                                        </li>
+
+                                        <li class="has-mega-menu">
+                                            <a href="../../Pages/Set/AddSliderImage.aspx">Add SliderImage </a>
+                                        </li>
+                                           <li class="has-mega-menu">
+                                            <a href="../../Pages/Set/ChangePassword.aspx">Create/Edit User</a>
+                                        </li>
+
+                                    </ul>
+                                    <a href="#" class="toggle-mobile-menu"><span></span></a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Header Nav -->
+                </div>
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+
+            <!-- End Content -->
+            <div id="footer">
+                <div class="footer footer1">
+                    <%-- <div class="container">
+                        <div class="service-footer">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div class="item-service-footer">
+                                        <div class="service-icon">
+                                            <a href="#" class="wobble-horizontal">
+                                                <img class="img-circle" src="../../images/photos/piggy-bank.png" alt="" /></a>
+                                        </div>
+                                        <div class="service-info">
+                                            <h2 class="title14">Business Identity</h2>
+                                            <p>Get Verified, Build Trust</p>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Display your verification status</a></li>
+                                                <li><a href="#">Faster responses from suppliers when verified</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div class="item-service-footer">
+                                        <div class="service-icon">
+                                            <a href="#" class="wobble-horizontal">
+                                                <img class="img-circle" src="../../images/photos/investment.png" alt="" /></a>
+                                        </div>
+                                        <div class="service-info">
+                                            <h2 class="title14">e - Credit Line</h2>
+                                            <p>Buy Now, Pay Later</p>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Trusted local lenders</a></li>
+                                                <li><a href="#">Trade financing in minutes</a></li>
+                                                <li><a href="#">Competitive rates</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <div class="item-service-footer">
+                                        <div class="service-icon">
+                                            <a href="#" class="wobble-horizontal">
+                                                <img class="img-circle" src="../../images/photos/telemarketer.png" alt="" /></a>
+                                        </div>
+                                        <div class="service-info">
+                                            <h2 class="title14">Inspection Service</h2>
+                                            <p>Have Your Order Inspected</p>
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Independent inspectors</a></li>
+                                                <li><a href="#">Proven cost efficiency</a></li>
+                                                <li><a href="#">Competitive rates</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Service Footer -->
+                        <div class="footer-list-box">
+                            <div class="row">
+                                <div class="col-md-5 col-sm-12 col-xs-12">
+                                    <div class="newsletter-form footer-box">
+                                        <h2 class="title14">Subscription</h2>
+                                        <form>
+                                            <input type="text" onblur="if (this.value=='') this.value = this.defaultValue" onfocus="if (this.value==this.defaultValue) this.value = ''" value="Place enter your email">
+                                            <input type="submit" value="Subscription">
+                                        </form>
+                                    </div>
+                                    <div class="social-footer footer-box">
+                                        <h2 class="title14">Stay Connected</h2>
+                                        <div class="list-social">
+                                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-3 col-xs-6">
+                                    <div class="menu-footer-box footer-box">
+                                        <h2 class="title14">How to Buy</h2>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Create an Account</a></li>
+                                            <li><a href="#">Making Payments</a></li>
+                                            <li><a href="#">Delivery Options</a></li>
+                                            <li><a href="#">Buyer Protection</a></li>
+                                            <li><a href="#">New User Guide</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-3 col-xs-6">
+                                    <div class="menu-footer-box footer-box">
+                                        <h2 class="title14">Customer Service</h2>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">Customer Support</a></li>
+                                            <li><a href="#">Affiliate Program</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">About us</a></li>
+                                            <li><a href="#">Contact us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="contact-footer-box footer-box">
+                                        <h2 class="title14">contact us</h2>
+                                        <p class="formule-address">8901 Marmora Road, Glasgow, D04  89GR.</p>
+                                        <p class="formule-phone">
+                                            +1 800 559 6580<br>
+                                            +1 504 889 9898
+                                        </p>
+                                        <p class="formule-email"><a href="mailto:email@demolink.org">email@demolink.org</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Footer List Box -->
+                    </div>--%>
+                    <div class="payment-method text-center">
+                        <a href="#" class="wobble-vertical">
+                            <img src="<%=Page.ResolveUrl("~")%>images/home4/pay1.png" alt="" /></a>
+                        <a href="#" class="wobble-vertical">
+                            <img src="<%=Page.ResolveUrl("~")%>images/home4/pay2.png" alt="" /></a>
+                        <a href="#" class="wobble-vertical">
+                            <img src="<%=Page.ResolveUrl("~")%>images/home4/pay3.png" alt="" /></a>
+                        <a href="#" class="wobble-vertical">
+                            <img src="<%=Page.ResolveUrl("~")%>images/home4/pay4.png" alt="" /></a>
+                    </div>
+                    <!-- End Payment -->
+
+                    <!-- End Footer Tab -->
+
+
+                    <div class="footer-copyright">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8 col-sm-8 col-xs-12">
+                                    <p class="copyright">Copyright © 2019 BRR WHOLE SALE All rights reserved.</p>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-12">
+                                    <p class="designby">Design by: <a href="mailto:PTI System">ptisystem.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Footer Copyright -->
+                </div>
+            </div>
+            <!-- End Footer -->
+            <a href="#" class="radius scroll-top style1"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+
+        </div>
+    </form>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="<%= Page.ResolveUrl("~")%>js/jquery.js"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl("~")%>js/libs/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl("~")%>js/libs/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl("~")%>js/libs/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl("~")%>js/libs/owl.carousel.js"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl("~")%>js/libs/jquery.jcarousellite.js"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl("~")%>js/libs/jquery.elevatezoom.js"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl("~")%>js/libs/jquery.mCustomScrollbar.js"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl("~")%>js/libs/TimeCircles.js"></script>
+    <script type="text/javascript" src="<%= Page.ResolveUrl("~")%>js/theme.js"></script>
+</body>
+</html>

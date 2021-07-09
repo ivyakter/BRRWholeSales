@@ -1,0 +1,67 @@
+
+order radius 1 to 150 mile 
+------------------------------
+All delivery order has to be confirmed day before 6pm. delivry order 1 din age minimum bikel 6 tar age confirm korte hobe. Example Monday te delivery select korle sunday bikel 6 tar age confirm korte hobe. 
+
+A. 1 to 50 mile - 150 pounds minimum order - Delivery day - Monday to Friday 
+date  ( Date ta update hobe callendar onojiy Moday- Friday / 5 ta date show korbe)
+			09/10/19
+			10/10/19
+			11/10/19
+			14/10/19
+			15/10/19
+Delivery Time - Between 9 am To 5pm* (* sign e on hover e " We deliver Between 9Am to 5Pm, And we will cofrim the delivery time 2 Hours before the Delivery. If you need any time specification Please contact our customer service" ei message ta show korbe as pop up)
+
+B. 50+ to 100 mile - 200 pounds minimum order - Delivery day - Monday, Tuesday, Thrusday 
+date  ( Date ta update hobe callendar onojiy Moday,Tuesday, Thursday / 5 ta date show korbe)
+			10/10/19
+			14/10/19
+			15/10/19
+			17/10/19
+			21/10/19
+Delivery Time - Between 9 am To 5pm* (* sign e on hover e " We deliver Between 9Am to 5Pm, And we will cofrim the delivery time 2 Hours before the Delivery. If you need any time specification Please contact our customer service" ei message ta show korbe as pop up)
+
+
+C. 100+ to 150 mile - 250 pounds mimimum order - Delivery day - Thrusday 
+date  ( Date ta update hobe callendar onojiy Only Thursday/ 3 ta date show korbe)
+			10/10/19
+			17/10/19
+			24/10/19
+Delivery Time - Between 9 am To 5pm* (* sign e on hover e " We deliver Between 9Am to 5Pm, And we will cofrim the delivery time 2 Hours before the Delivery. If you need any time specification Please contact our customer service" ei message ta show korbe as pop up)
+			
+
+
+
+
+
+
+--------------------------------------------
+
+Collection - Monday- to- Saturday 9am -4.30pm (sunday close)
+
+ R codition hosse 4 hours age confirm korte hobe. example 4.30pm te collection korte hole 12.30 pm e cofirm korte hobe, nahole next day collction selection hobe. 
+collection -
+		date  ( Date ta update hobe callendar onojiy Moday- Friday / 5 ta date show korbe)
+			19/06/19
+			20/06/19
+			21/06/19
+			22/06/19
+			24/06/19
+					Time Slot	
+						09.30 am
+						10.00 am
+						10.30 am
+						11.00 am
+						11.30 am
+						12.00 pm
+						12.30 pm
+						01.00 pm
+						02.00 pm
+						02.30 pm
+						03.00 pm
+						03.30 pm
+						04.00 pm
+						04.30 pm 
+
+
+*uk uses mile as a distance and pounds currency 
